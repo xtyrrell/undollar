@@ -1,0 +1,29 @@
+{
+  "name": "undollar",
+  "version": "0.0.1",
+  "description": "You copy some code. You paste it into your terminal. \"$: command not found\", your terminal complains. Lame. So you install undollar.",
+  "preferGlobal": true,
+  "bin": {
+    "$": "./undollar.js"
+  },
+  "main": "undollar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImFeelingDucky/undollar.git"
+  },
+  "keywords": [
+    "command-line",
+    "convenience",
+    "copy-paste",
+    "dollar"
+  ],
+  "author": "Max Tyrrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImFeelingDucky/undollar/issues"
+  },
+  "homepage": "https://github.com/ImFeelingDucky/undollar#readme"
+}
