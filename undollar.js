@@ -2,6 +2,11 @@
 
 const { spawn } = require('child_process')
 
+if (!process.argv[2]) {
+    console.log('Usage: $ command [args] where command is any valid terminal command.')
+    process.exit()
+}
+
 // Run a command with its arguments by spawning a process and
 // transparently routing stdio and signals through this parent process
 const spawnedProcess = spawn(

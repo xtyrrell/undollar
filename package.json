@@ -1,7 +1,7 @@
 {
   "name": "undollar",
-  "version": "0.0.1",
-  "description": "You copy some code. You paste it into your terminal. \"$: command not found\", your terminal complains. Lame. So you install undollar.",
+  "version": "1.0.0",
+  "description": "undollar strips the dollar sign from the beginning of the terminal command you just copied from StackOverflow when you were searching for what arguments to pass to `tar` (`xzf`? `xvfJ`? Or was it `xvf`? You never seem to remember).",
   "preferGlobal": true,
   "bin": {
     "$": "./undollar.js"
@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/ImFeelingDucky/undollar/issues"
   },
-  "homepage": "https://github.com/ImFeelingDucky/undollar#readme"
+  "homepage": "https://github.com/ImFeelingDucky/undollar#readme",
+  "dependencies": {}
 }
